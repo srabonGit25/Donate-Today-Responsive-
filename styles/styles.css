@@ -563,7 +563,7 @@ header{
     }
     .head-text{
         text-align: center;
-        font-size: 20px;
+        font-size: 30px;
         margin-right: 0px;
         margin-left: 0px;
         margin-top: 110px;
@@ -593,6 +593,14 @@ header{
     .short-text{
         text-align: center;
         margin-left: 0px;
+    }
+    .hr-line{
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+    .second-btn{
+        margin-left: 0px;
+        margin-right: 0px;
     }
     .second-btn-responsive{
         display: flex;
