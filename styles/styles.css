@@ -85,7 +85,7 @@ header{
     background-color: #f32c2c;
     color: rgb(241, 239, 239);
     border-color: #707070;
-    transition: 0.80s;
+    transition: 0.75s;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 .short-text{
@@ -548,4 +548,108 @@ header{
     margin-right: 0px;
     margin-left: 0px;
  }
+}
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    header{
+        flex-direction: column;
+        background-size: cover;
+    }
+    .header-title{
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .head-text{
+        text-align: center;
+        font-size: 20px;
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-top: 110px;
+    }
+    .head-description{
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 40px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .donate-now-btn{
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+        margin-bottom: 140px;
+    }
+    .section-1-description{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .taka-btn-div{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 0px;
+    }
+    .short-text{
+        text-align: center;
+        margin-left: 0px;
+    }
+    .second-btn-responsive{
+        display: flex;
+        justify-content: center;
+    }
+    .our-donate-plan-1{
+        margin-left: 0px;
+    }
+    .our-donate-plan-3{
+        margin-right: 0px;
+    }
+    .section-4, .section-5{
+        flex-direction: column-reverse;
+        gap: 0px;
+    }
+    .section-4-img, .section-5-img{
+        width: 100%;
+        margin-top: 120px;
+        margin-bottom: 100px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .section-4-head, .section-5-head{
+        text-align: center;
+        font-size: 38px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+    }
+    .section-4-description, .section-5-description{
+        text-align: center;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 30px;
+    }
+    .section-4-description-2, .section-5-description-2{
+        text-align: center;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 20px;
+    }
+    .third-btn, .fourth-btn{
+        margin-top: 50px;
+        margin-bottom: 100px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .third-btn-flex, .fourth-btn-flex{
+        display: flex;
+        justify-content: center;
+    }
+    .email-box{
+        justify-content: center;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .email-styles{
+        margin-left: 0px;
+    }
 }
